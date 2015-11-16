@@ -1,5 +1,9 @@
-const hello = () => {
-  console.log("hello es6");
-}
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-hello();
+ReactDOM.render(
+  <div>Hello, React</div>,
+  document.getElementById('app')
+);
+
+
